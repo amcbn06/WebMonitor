@@ -4,7 +4,7 @@ import winsound
 from datetime import datetime
 
 link = input("Please provide the URL of the website for surveillance: ")
-snapshotFile = "snapshot.txt"
+snapshotFile = "snapshot.html"
 timeBetweenSnapshots = int(input("Enter the time interval between snapshots (in seconds): "))
 
 
