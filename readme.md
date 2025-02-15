@@ -1,52 +1,19 @@
-# My Markdown File
+![WebMonitor Logo](src/logo.png)
 
-This is some Markdown text. Below is the HTML code for displaying a logo and title.
+This console application captures snapshots of a user-inputted website at regular intervals; upon detecting any changes in the site's content, it notifies the user via an audio alert.
 
-```html
-<style>
-    
-    @font-face {
-        font-family: 'WatchmenFont';
-        src: url('src/watchmen.ttf') format('woff2'),
-        url('src/watchmen.ttf') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
+![Screenshot](src/Screenshot.png)
 
-    body {
-        margin: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-    }
+## How it works
 
-    .container {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
+The user inputs the website's URL and the time interval between snapshots. The program initiates periodic captures of the website's HTML content. When a change is detected, it alerts the user by playing the Windows exclamation sound at 3-second intervals until acknowledged. 
 
-    .logo {
-        width: 50px;
-        height: auto;
-    }
+## Why is it useful
 
-    .title {
-        font-size: 24px;
-        font-family: 'WatchmenFont', Arial, sans-serif;
-        color: #ffeb00;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        text-decoration: none !important;
-    }
-</style>
+This application automates website monitoring, providing timely notifications for critical updates. Some of my key use cases include:  
 
-<div class="container">
-    <img src="src/logo.png" alt="Logo" class="logo">
-    <h1 class="title">WebMonitor</h1>
-</div>
-```
+1. **Tracking Programming Contest Pages**: Monitors official contest pages for updates such as rule changes, deadlines, or winner announcements
 
-This is more Markdown text below the HTML.
+2. **Monitoring Olympiad Results**: Tracks official websites for the publication of Olympiad results
+
+**Advantages**: Lightweight, easy to use, delivers instant alerts to eliminate manual checks and ensure users stay informed effortlessly.  
