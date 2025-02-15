@@ -2,6 +2,7 @@
 
 This is some Markdown text. Below is the HTML code for displaying a logo and title.
 
+```html
 <style>
     
     @font-face {
@@ -38,6 +39,7 @@ This is some Markdown text. Below is the HTML code for displaying a logo and tit
         color: #ffeb00;
         letter-spacing: 3px;
         text-transform: uppercase;
+        text-decoration: none !important;
     }
 </style>
 
@@ -45,5 +47,6 @@ This is some Markdown text. Below is the HTML code for displaying a logo and tit
     <img src="src/logo.png" alt="Logo" class="logo">
     <h1 class="title">WebMonitor</h1>
 </div>
+```
 
 This is more Markdown text below the HTML.
